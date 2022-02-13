@@ -45,7 +45,7 @@
                 border: solid 5px white;
                 border-radius: 10px;
             }
-            .scrollclosed:active ~ #scrollopened{
+            #mylink:checked ~ #scrollopened{
                     z-index: 4;
                     top: 0%;
                     left: 0%;
@@ -54,7 +54,7 @@
                     padding:0 30% 0 30%;
                     background:radial-gradient(1000px, transparent, black);
             }
-            .scrollclosed:active ~ #poem{
+            #mylink:checked ~ #poem{
                 text-align: center;
                 font-family: "Dancing Script", cursive;
                 position:absolute;
@@ -102,7 +102,7 @@
     </head>
     <body>
         <img src="https://www.authentikcanada.com/images/section/images_list/4_11608.jpg" id="bgimg">
-        <a href="#scrollopened"><img class="scrollclosed" src="https://lh3.googleusercontent.com/7RtRwkIoIusbzLT6jFX9edCNyAxDoBxvn0eYEWlVmAzxDKDZsFqsE5naRKXvoSRbaiht009-8B8YrNBjv6UvpUBCHAavvonjRC90aWC3iR-f-TSz1w1HDCdrnq6Wx05Jj4JzVHcj=w2400"></a>
+        <a href="https://db-creator.github.io" id="mylink"><img class="scrollclosed" src="https://lh3.googleusercontent.com/7RtRwkIoIusbzLT6jFX9edCNyAxDoBxvn0eYEWlVmAzxDKDZsFqsE5naRKXvoSRbaiht009-8B8YrNBjv6UvpUBCHAavvonjRC90aWC3iR-f-TSz1w1HDCdrnq6Wx05Jj4JzVHcj=w2400"></a>
         <img src="https://lh3.googleusercontent.com/b714VIerxPF8k53mIjL2Tj4qwY85WrNLwjLHNkJnEX7ebmGyIA28cbIT_JyJZqchhvjSM30J1naATIhV-URU31ZFZOXYny-8Dl5OAxgmz5MjnuHDD3RFHuuYJH14UxLtPjtO319XGA=w2400" id="scrollopened">         
         <p id="poem">Ici débute une lettre<br>
 Et se termine un calvaire.<br>
