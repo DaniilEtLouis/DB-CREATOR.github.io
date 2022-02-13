@@ -9,12 +9,23 @@
         <style>
             body{
                 background: radial-gradient(250px, rgb(254, 201, 3), black);
+                animation: glowing 5s infinite;
             }
             #bgimg{
                 width: 100%;
                 height: 100%;
                 filter: opacity(50%);
                 border: ridge 10px brown;
+            }
+            @keyframes glowing{
+            0%{
+                background: radial-gradient(250px, rgb(254, 201, 3), black);
+                }
+            50%{
+                background: radial-gradient(400px, rgb(254, 201, 3), black);
+                }
+            100%{background: radial-gradient(250px, rgb(254, 201, 3), black);
+                }
             }
         </style>
     </head>
