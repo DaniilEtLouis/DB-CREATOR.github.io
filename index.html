@@ -46,6 +46,12 @@
                     height: 100%;
                     width: 40%;
             }
+                .scrollclosed:active ~ body{
+                    background: radial-gradient(250, transparent, black);
+                }
+                .scrollclosed:active ~ #bgimg{
+                    filter: opacity(20%);
+            }
             @keyframes glowing{
             0%{background: radial-gradient(250px, rgb(254, 201, 3), black);
                 }
