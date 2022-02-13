@@ -58,11 +58,20 @@
                 font-family: "Dancing Script", cursive;
                 position:absolute;
                 z-index: 5;
-                top: 8%;
+                top: 9%;
                 left:30%;
-                    font-size: 20px;
-                    width: 40%;
-                    height: 60;
+                font-size: 20px;
+                width: 40%;
+                height: 60;
+                animation: apparition 5s;
+                }
+            @keyframes apparition{
+                    0%{
+                            filter: opacity(0%);
+                    }
+                    100%{
+                            filter: opacity(100%);
+                    }
                 }
             @keyframes glowing{
             0%{background: radial-gradient(250px, rgb(254, 201, 3), black);
