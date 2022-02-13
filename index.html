@@ -55,20 +55,24 @@
                     background:radial-gradient(1000px, transparent, black);
             }
             .scrollclosed:active ~ #poem{
-                text-align: center;
-                font-family: "Dancing Script", cursive;
-                position:absolute;
-                z-index: 5;
-                top: 9%;
-                left:30%;
-                font-size: 20px;
-                width: 40%;
-                height: 60;
-                animation: apparition 1s;
+                animation: apparition 10s;
                 }
+                
+                
             @keyframes apparition{
                     0%{
+                            text-align: center;
+                                font-family: "Dancing Script", cursive;
+                                position:absolute;
+                                z-index: 5;
+                                top: 9%;
+                                left:30%;
+                                font-size: 20px;
+                                width: 40%;
+                                height: 60;
                             filter: opacity(0%);
+                    }
+                    10%{filter: opacity(100%);
                     }
                     100%{
                             filter: opacity(100%);
