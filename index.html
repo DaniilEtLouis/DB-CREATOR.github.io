@@ -9,15 +9,17 @@
                 animation: glowing 2s infinite;
                 
             }
-            #poem{
-                width: 1px;
-                    height: 1px;
             #scrollopened{
                 position: absolute;
                 z-index: 0;
                 height: 1px;
                 width: 1px;
             }
+                #poem{
+                        width: 1px;
+                        height: 1px;
+                        font-size: 1px;
+                }
             #bgimg{
                 width: 100%;
                 height: 100%;
@@ -55,11 +57,12 @@
                 text-align: center;
                 font-family: "Dancing Script", cursive;
                 position:absolute;
-                top: 20%;
-                left:45%;
-                color: black;
-                text-size: 32px;
                 z-index: 5;
+                top: 8%;
+                left:30%;
+                    font-size: 20px;
+                    width: 40%;
+                    height: 60;
                 }
             @keyframes glowing{
             0%{background: radial-gradient(250px, rgb(254, 201, 3), black);
@@ -88,7 +91,10 @@
         </style>
     </head>
     <body>
-            <p id="poem">Ici débute une lettre<br>
+        <img src="https://www.authentikcanada.com/images/section/images_list/4_11608.jpg" id="bgimg">
+        <img class="scrollclosed" src="https://lh3.googleusercontent.com/7RtRwkIoIusbzLT6jFX9edCNyAxDoBxvn0eYEWlVmAzxDKDZsFqsE5naRKXvoSRbaiht009-8B8YrNBjv6UvpUBCHAavvonjRC90aWC3iR-f-TSz1w1HDCdrnq6Wx05Jj4JzVHcj=w2400">
+        <img src="https://lh3.googleusercontent.com/b714VIerxPF8k53mIjL2Tj4qwY85WrNLwjLHNkJnEX7ebmGyIA28cbIT_JyJZqchhvjSM30J1naATIhV-URU31ZFZOXYny-8Dl5OAxgmz5MjnuHDD3RFHuuYJH14UxLtPjtO319XGA=w2400" id="scrollopened">         
+        <p id="poem">Ici débute une lettre<br>
 Et se termine un calvaire.<br>
 Ici je vide mon être<br>
 Pour te transmettre ces vers.<br><br>
@@ -109,8 +115,4 @@ Et le regret non-temporaire.<br>
 Se termine donc ma lettre sincère,<br>
 Exprimant l’amour hors-pair.<br>
 </p>
-        <img src="https://www.authentikcanada.com/images/section/images_list/4_11608.jpg" id="bgimg">
-        <img class="scrollclosed" src="https://lh3.googleusercontent.com/7RtRwkIoIusbzLT6jFX9edCNyAxDoBxvn0eYEWlVmAzxDKDZsFqsE5naRKXvoSRbaiht009-8B8YrNBjv6UvpUBCHAavvonjRC90aWC3iR-f-TSz1w1HDCdrnq6Wx05Jj4JzVHcj=w2400">
-        <img src="https://lh3.googleusercontent.com/b714VIerxPF8k53mIjL2Tj4qwY85WrNLwjLHNkJnEX7ebmGyIA28cbIT_JyJZqchhvjSM30J1naATIhV-URU31ZFZOXYny-8Dl5OAxgmz5MjnuHDD3RFHuuYJH14UxLtPjtO319XGA=w2400" id="scrollopened">         
-
 </body></html>
