@@ -34,6 +34,13 @@
                 border: solid 5px white;
                 border-radius: 10px;
             }
+            #scrollclosed:active ~ #scrollopened{
+                    z-index: 4;
+                    top: 50%;
+                    left: 50%;
+                    height: 400;
+                    width: 100px;
+            }
             @keyframes glowing{
             0%{background: radial-gradient(250px, rgb(254, 201, 3), black);
                 }
